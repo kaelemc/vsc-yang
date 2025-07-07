@@ -1,6 +1,7 @@
 {
   "name": "vsc-yang",
   "publisher": "kaelem",
+  "repository": "https://github.com/kaelemc/vsc-yang",
   "displayName": "YANG VS Code",
   "description": "y yang make me do this",
   "version": "0.0.1",
