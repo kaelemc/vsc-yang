@@ -1,5 +1,6 @@
 {
   "name": "vsc-yang",
+  "publisher": "kaelem",
   "displayName": "YANG VS Code",
   "description": "y yang make me do this",
   "version": "0.0.1",
