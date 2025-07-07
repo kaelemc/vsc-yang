@@ -1,0 +1,23 @@
+{
+  "scopeName": "source.yang",
+  "name": "YANG",
+  "patterns": [
+    {
+      "match": "\\b(module|container|leaf|type|enum|import|augment|description|revision|config|default|required|presence|mandatory|uses|namespace|prefix|yang-version)\\b",
+      "name": "keyword.yang"
+    },
+    {
+      "match": "\"[^\"]*\"",
+      "name": "string.quoted.double.yang"
+    },
+    {
+      "match": "//.*$",
+      "name": "comment.line.double-slash.yang"
+    },
+    {
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment.block.yang"
+    }
+  ]
+}
